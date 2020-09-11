@@ -1,0 +1,396 @@
+body
+	background-color: #FAFBFD
+
+header
+	width: 100%
+	position: fixed
+	top: 10px
+.menu
+	display: flex
+	margin: 0
+
+	li
+		padding-right: 60px
+		list-style: none
+
+		a
+			font-style: normal
+			font-weight: normal
+			font-size: 16px
+			color: #141414
+
+.header_phone
+	font-style: normal
+	font-weight: bold
+	font-size: 24px
+	color: #141414
+
+.contactus
+	display: block
+	float: right
+	margin-top: 25px
+	font-style: normal
+	font-weight: normal
+	font-size: 24px
+	line-height: 29px
+	color: #141414
+
+	&::before
+		content: ''
+		display: inline-block
+		vertical-align: middle
+		border-radius: 50%
+		width: 17px
+		height: 15px
+		background: #0ED7B5
+		margin-right: 10px
+
+section
+	&.main
+		background-color: #FAFBFD
+		height: 100vh
+
+		.main-menu ul.menu-list
+			height: 100vh
+			display: flex
+			justify-content: flex-end
+			align-items: baseline
+			padding-bottom: 30px
+
+			li
+				width: 50px
+				margin-top: 5px
+				margin-bottom: 5px
+				text-align: center
+				list-style-type: none
+				font-weight: bold
+				font-size: 1.2em
+
+		.main-info
+			display: flex
+			width: 480px
+			height: 100vh
+			justify-content: center
+			align-items: flex-start
+			flex-flow: column
+
+			p
+				font-size: 1.5em
+
+			h1
+				font-size: 2.5em
+				font-weight: bold
+
+		.main-image 
+			display: block
+			height: 100vh
+			position: relative
+			width: 100%
+			margin-left: -90px
+			img
+				width: 435px
+				position: absolute
+				bottom: 30px
+
+	&.develop
+		height: 100vh
+		background-color: #FAFBFD
+		.container
+      padding-top: 150px
+      align-items: center
+		.develop-header
+			display: flex
+			justify-content: center
+			align-items: flex-start
+			width: 100%
+			.develop-title
+				height: 100%
+				font-style: normal
+				font-weight: 800
+				font-size: 36px
+				line-height: 44px
+				color: #141414
+			.develop-images
+				display: flex
+				justify-content: space-between
+		.develop-blocks
+			margin-top: 50px
+			height: 100vh
+			width: 316px
+			height: 260px
+			background: #FFFFFF
+			-webkit-box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05), 4px 0px 25px rgba(0, 0, 0, 0.05)
+			box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05), 4px 0px 25px rgba(0, 0, 0, 0.05)
+			
+		.blocks-title
+				display: inline-block
+				margin: 10px 0 0 25px
+				font-style: normal
+				font-weight: bold
+				font-size: 24px
+				color: #141414
+				border-bottom: 3px solid #0ED7B5
+		.blocks-list
+				margin-top: 25px
+				list-style: none
+				position: relative
+				li
+					font-style: normal
+					font-weight: normal
+					font-size: 18px
+					line-height: 105.4%
+					color: #4E4E4E
+					margin-bottom: 14px
+					&::before
+              content: ''
+              display: inline-block
+              width: 23px
+              height: 5px
+              background: #2298BD
+              transform: translateY(-3px)
+              margin-right: 13px
+		.tr-1
+			transform: translateY(-57px)
+			.span-1
+				position: absolute
+				border: 40px solid transparent
+				border-right: 40px solid #0ED7B5
+				display: inline-block
+				width: 0
+				right: 0
+			.span-2
+				position: absolute
+				border: 40px solid transparent
+				border-bottom: 40px solid #2298BD
+				display: inline-block
+				width: 0
+				right: 0
+		.tr-2
+			transform: translateY(-25px)
+			.span-1
+				position: absolute
+				border: 40px solid transparent
+				border-right: 40px solid #0ED7B5
+				display: inline-block
+				width: 0
+				right: 0
+			.span-2
+				position: absolute
+				border: 40px solid transparent
+				border-bottom: 40px solid #2298BD
+				display: inline-block
+				width: 0
+				right: 0
+.develop-link
+	display: flex
+	justify-content: center
+	align-items: baseline
+	font-style: normal
+	font-weight: 500
+	font-size: 30px
+	color: #141414
+	margin-top: 75px
+	img
+		margin-left: 35px
+		margin-top: 0
+			
+.portfolio
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	.portfolio-header
+		width: 100%
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin-top: 150px
+		.portfolio-title
+			height: 100%
+			font-style: normal
+			font-weight: 800
+			font-size: 36px
+			line-height: 44px
+			color: #141414
+		.develop-images
+			display: flex
+			justify-content: space-between
+	.portfolio-blocks
+		margin-top: 60px	
+		width: 100%
+		justify-content: space-between
+		position: relative
+	.block-item
+		width: 347px
+		height: 350px
+		background: #FFFFFF
+		box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05), 4px 0px 25px rgba(0, 0, 0, 0.05)
+		.block-title
+			display: block
+			margin: 0 auto
+			width: 260px
+			font-style: normal
+			font-weight: bold
+			font-size: 24px
+			line-height: 29px
+			color: #141414
+			padding-top: 141px
+		
+		.span-1
+			position: absolute
+			border: 50px solid transparent
+			border-right: 50px solid #0ED7B5
+			display: inline-block
+			width: 0
+			right: 0
+			transform: translateX(-18px) translateY(52px)
+		.span-2
+			position: absolute
+			border: 50px solid transparent
+			border-bottom: 50px solid #2298BD
+			display: inline-block
+			width: 0
+			right: 0
+			transform: translateX(-18px) translateY(52px)
+		.span-3
+			position: absolute
+			border: 50px solid transparent
+			border-top: 50px solid #0ED7B5
+			display: inline-block
+			top: 0
+			left: 0
+			transform: translateX(15px) translateY(-1px)
+		.span-4
+			position: absolute
+			border: 50px solid transparent
+			border-left: 50px solid #2298BD
+			display: inline-block
+			top: 0
+			left: 0
+			transform: translateX(15px) translateY(-2px)
+
+	
+.evolution
+	width: 100%
+	height: 100vh
+	display: flex
+	flex-direction: column
+	justify-content: flex-start
+	align-items: center
+	&-header
+		width: 100%
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin-top: 150px	
+	&-title
+		font-style: normal
+		font-weight: 800
+		font-size: 36px
+		line-height: 44px
+		color: #141414
+	&-images
+		width: 100%
+		display: flex
+		justify-content: space-between
+	&-info
+		margin-top: 65px
+		display: flex
+		flex-direction: column
+		justify-content: space-around
+		align-content: space-between
+		font-family: Montserrat
+		font-style: normal
+		font-weight: normal
+		font-size: 20px
+		line-height: 29px
+		color: #141414
+		text-align: justify
+	&-footer
+		margin-top: 80px
+		width: 100%
+		display: flex
+		justify-content: space-between
+		align-items: flex-end
+		font-style: normal
+		font-weight: 500
+		font-size: 30px
+		color: #141414
+		.it-uz
+			width: 270px
+
+.contact
+	display: flex
+	width: 100%
+	margin-top: 150px
+	&-header
+		width: 100%
+		font-style: normal
+		font-weight: 800
+		font-size: 36px
+		line-height: 44px
+		color: #141414
+		img
+			margin-left: 30px
+	&-info
+		margin-top: 30px
+		ul
+			margin: 0
+			padding: 0
+			list-style: none
+			li
+				font-style: normal
+				font-weight: normal
+				font-size: 18px
+				color: #141414
+				margin-top: 30px
+	&-footer
+		width: 100%
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+		font-family: Montserrat
+		font-style: normal
+		font-weight: 500
+		font-size: 30px
+		line-height: 37px
+		color: #141414
+		margin-top: 52px
+		.footer-btn
+			border: none
+			width: 440px
+			height: 92px
+			background: #0ED7B5
+			border-radius: 5px
+			font-style: normal
+			font-weight: 600
+			font-size: 30px
+			line-height: 37px
+			color: #FFFFFF
+			margin-left: 35px
+			margin-top: -60px
+	.footer-info
+		width: 100%
+		margin-top: 80px
+	.footer-text
+		width: 100%
+		font-style: normal
+		font-weight: normal
+		font-size: 16px
+		color: #141414
+		margin-left: 10px
+		text-align: justify
+.show
+	display: block
+.hide
+	display: none
+.modal1
+	height: 100vh
+	background: radial-gradient(68.52% 68.52% at 50.86% 43.01%, #FFFFFF 0%, rgba(0, 0, 0, 0.8) 100%)
+	opacity: 0.75
+.modal-form
+	width: 759px
+	height: 560px
+	display: block
+	margin: 0 auto
+	background: #3b076b
